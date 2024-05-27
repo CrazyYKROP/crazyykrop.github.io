@@ -1,0 +1,6 @@
+<Files "page1.html">
+  AuthType Basic
+  AuthName "Restricted Access"
+  AuthUserFile .htpasswd
+  Require valid-user
+</Files>
